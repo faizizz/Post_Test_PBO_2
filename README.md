@@ -64,7 +64,7 @@ Contoh output:
 ![{EEC56836-F697-48D5-BD17-73BDF6A7C5F9}](https://github.com/user-attachments/assets/1a952a3c-55b2-4591-a724-075e05c001b7)
 ---
 
-# **CATATAN PEMBARUAN**
+#**CATATAN PEMBARUAN**
 Berikut adalah penjelasan terkait penambahan yang dilakukan:. <br>
 ##1. Inheritance (Pewarisan)
 Inheritance diterapkan pada project ini dengan memperkenalkan class abstrak Person yang menjadi parent class dari Narapidana. Semua narapidana adalah Person, sehingga kita dapat menyusun atribut dan metode umum di dalam Person, lalu mewariskannya ke class Narapidana. <br>
