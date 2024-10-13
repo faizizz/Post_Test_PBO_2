@@ -75,7 +75,7 @@ Abstraksi diterapkan dengan memperkenalkan interface Manageable yang mendefinisi
 ## 3.Encapsulation (Enkapsulasi)
 Encapsulation diterapkan melalui penggunaan getter dan setter untuk atribut Narapidana. Atribut-atribut di dalam class Narapidana disembunyikan (private) dan hanya dapat diakses serta dimodifikasi melalui metode getter dan setter. <br>
 
-## 4.Final Keyword
+## 4.Final Keyword <br>
 Penggunaan final keyword juga diterapkan dalam project ini. Final digunakan untuk mendefinisikan class yang tidak bisa diwarisi lagi dan variabel yang nilainya tidak bisa diubah setelah diinisialisasi. Class Lapas dibuat final, artinya tidak bisa dijadikan parent class oleh class lain. Selain itu, variabel id juga diberi final sehingga nilainya tidak bisa diubah setelah diberikan.
 ---
 Class Main.java juga telah diubah agar lebih konsisten dengan penggunaan interface Manageable dan class abstrak Person. Operasi CRUD pada Narapidana dan Lapas kini menggunakan metode dari interface Manageable.
